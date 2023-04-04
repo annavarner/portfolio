@@ -1,0 +1,45 @@
+h1, h2 {
+    font-family: 'Handlee', cursive;
+}
+
+body {
+    font-size: 14px;
+    font-family: 'Inter', sans-serif;;
+    line-height: 1.5;
+    background-color: #f8f6ed;
+}
+
+header, nav, main, footer {
+    margin: 1.25rem auto;
+    max-width: 740px;
+}
+header, footer {
+    background-color: #1D3461 ;
+    color: white;
+    text-align: center;
+
+}
+
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    margin: .3em .5em;
+}
+
+
+img {
+    height: 150px;
+
+}
+
+.line {
+    height: 1px;
+    background: black;
+}
+ul {
+    list-style-type: circle;
+    align-items: center;
+
+}
